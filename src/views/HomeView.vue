@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <button @click="goToDayBook" class="btn btn-primary">Primary</button>
   </div>
 </template>
 
@@ -10,6 +11,11 @@
 export default {
   name: 'HomeView',
   components: {
+  },
+  methods:{
+    goToDayBook(){
+      this.$router.push({name: 'daybook'})
+    }
   }
 }
 </script>
