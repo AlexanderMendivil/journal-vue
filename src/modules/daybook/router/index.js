@@ -9,5 +9,10 @@ export default {
         path: '',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/daybook/views/NoEntrySelected.vue'),
         },
+        {
+        name: 'entry',
+        path: ':id',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/daybook/views/EntryView.vue'),
+        },
 ]
 }
