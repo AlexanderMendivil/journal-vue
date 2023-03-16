@@ -17,7 +17,7 @@
     <textarea placeholder="¿Qué sucedió hoy?"></textarea>
 </div>
 
-<Fab/>
+<Fab icon="fa-save"/>
 <img 
 class="img-thumbnail"
 src="https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/landscape-photography/CODERED_B1_landscape_P2d_714x348.jpg.img.jpg" alt="">

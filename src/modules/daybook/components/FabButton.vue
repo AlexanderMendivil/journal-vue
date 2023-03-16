@@ -1,10 +1,17 @@
 <template>
-  <button class="btn btn-primary"><i class="fa fa-2x fa-plus"></i></button>
+  <button class="btn btn-primary">
+    <i :class="`fa fa-2x ${icon}`"></i>
+    </button>
 </template>
 
 <script>
 export default {
-
+  props:{
+    icon:{
+      type: String,
+      default: 'fa-plus'
+    }
+  }
 }
 </script>
 
