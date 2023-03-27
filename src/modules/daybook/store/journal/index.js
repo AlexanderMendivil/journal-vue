@@ -1,13 +1,13 @@
 import state from './state'
-import * as action from './actions'
-import * as mutation from './mutations'
-import * as getter from './getters'
+import * as actions from './actions'
+import * as mutations from './mutations'
+import * as getters from './getters'
 
 const journal = {
     namespaced: true,
-    action,
-    getter,
-    mutation,
+    actions,
+    getters,
+    mutations,
     state,
 }
 
